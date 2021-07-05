@@ -1,171 +1,155 @@
 .rm-box-shadow {
-    box-shadow: none!important;
+	box-shadow: none !important;
 }
 
 .parallax-container {
-    height: 500px!important;    
-    min-height: 80vh;
+	height: 500px !important;
+	min-height: 20vh;
 }
 
 .sidenav-overlay {
-    opacity: 0!important;
+	opacity: 0 !important;
 }
 
 .capitalize {
-    text-transform: capitalize!important;
+	text-transform: capitalize !important;
 }
 
 .my-chip {
-    padding: 5px 12px;
-    background: #DFE5E8;
-    color: #92B1D2;
-    transition: 0.3s;
-    margin: 10px;
-    border-radius: 20px;        
+	padding: 5px 12px;
+	background: #dfe5e8;
+	color: #92b1d2;
+	transition: 0.3s;
+	margin: 10px;
+	border-radius: 20px;
 }
 .my-chip:hover {
-    color: white!important;
-    background: grey;
-    cursor: pointer;
+	color: white !important;
+	background: grey;
+	cursor: pointer;
 }
 .active-chip {
-    background: #19BCD4!important;
-    color: white!important;
+	background: #19bcd4 !important;
+	color: white !important;
 }
 .text-center {
-    text-align: center!important;
+	text-align: center !important;
 }
 .font-weight-thin {
-    font-weight: lighter!important;
+	font-weight: lighter !important;
 }
 .font-weight-bold {
-    font-weight: 800!important;
+	font-weight: 800 !important;
 }
 .rounded {
-    border-radius: 25px;
+	border-radius: 25px;
 }
 
-
-
-
 .card-image img {
-    border-bottom: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
 }
 
 .my-border {
-    border: 1px solid #eee;
+	border: 1px solid #eee;
 }
 
 /* FLEX BOX */
 .d-flex {
-    display: flex;    
+	display: flex;
 }
 .flex-wrap {
-    flex-wrap: wrap;
+	flex-wrap: wrap;
 }
 .justify-center {
-    justify-content: center;
+	justify-content: center;
 }
 
 .align-center {
-    align-items: center;
+	align-items: center;
 }
 /* END FLEX BOX */
 
-
-
 /* SCROLL BAR */
-.my-scrollbar {    
-    overflow: auto!important;
-    
+.my-scrollbar {
+	overflow: auto !important;
 }
 .my-scrollbar::-webkit-scrollbar-track {
-    box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
-    background-color: #F5F5F5;        
+	box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+	background-color: #f5f5f5;
 }
 
-.my-scrollbar::-webkit-scrollbar {    
-    height: 4px;
-    background-color: #F5F5F5;
+.my-scrollbar::-webkit-scrollbar {
+	height: 4px;
+	background-color: #f5f5f5;
 }
 
 .my-scrollbar::-webkit-scrollbar-thumb {
-    background-color: #05A5B9;	                
+	background-color: #05a5b9;
 }
 /* END SCROLL BAR */
 
-
-
-
 /* BUTTON */
 .btn-outline {
-    background: transparent!important;
-    border: 1px solid #2CA69A!important;
-    margin: 0 5px;
+	background: transparent !important;
+	border: 1px solid #2ca69a !important;
+	margin: 0 5px;
 }
 .btn-block {
-    width: 100%!important;
+	width: 100% !important;
 }
 /* END BUTTON */
 
-
 input {
-    border: 1px solid lightseagreen!important;
-    padding: 0 5px!important;
+	border: 1px solid lightseagreen !important;
+	padding: 0 5px !important;
 }
-
-
 
 .image-collection {
-    width: 100%;
-    overflow: auto;    
+	width: 100%;
+	overflow: auto;
 }
-.image-collection img {            
-    margin: 5px;
-    border: 2px solid grey;
-    width: 120px!important;
-    height:80px;    
+.image-collection img {
+	margin: 5px;
+	border: 2px solid grey;
+	width: 120px !important;
+	height: 80px;
 }
 .image-collection img:hover {
-    border-color: orange!important;
-    cursor: pointer;
+	border-color: orange !important;
+	cursor: pointer;
 }
 .image-collection-active {
-    border-color: orange!important;
-    cursor: pointer;
+	border-color: orange !important;
+	cursor: pointer;
 }
-
-
-
 
 .ssk {
-    transition: 0.3s!important;
+	transition: 0.3s !important;
 }
 .ssk:hover {
-    width: 50px!important;
+	width: 50px !important;
 }
 .ssk-tokped {
-    background-image: url('../images/default/tokped.png')!important;    
-    background-size: 30px;    
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 36px;
-    height: 40px;
+	background-image: url("../images/default/tokped.png") !important;
+	background-size: 30px;
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 36px;
+	height: 40px;
 }
 
 .ssk-shopee {
-    background-image: url('../images/default/shopee.png')!important;    
-    background-size: 30px;    
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 36px;
-    height: 40px;
+	background-image: url("../images/default/shopee.png") !important;
+	background-size: 30px;
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 36px;
+	height: 40px;
 }
-
 
 .card {
-    transition: 0.3s!important;
+	transition: 0.3s !important;
 }
 .card:hover {
-    box-shadow: 1px 3px 6px rgba(0,0,0,0.4)!important;
+	box-shadow: 1px 3px 6px rgba(0, 0, 0, 0.4) !important;
 }

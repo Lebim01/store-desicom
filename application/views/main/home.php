@@ -1,11 +1,16 @@
 <input type="hidden" class="base_url">
 
-<div class="parallax-container" style="z-index:100">
-    <div class="parallax">
-        <img src="<?=base_url()?>assets/images/logo/<?=$banner?>">
-    </div>
-</div>
+<style>
+    .banner {
+        width: 100%;
+    }
+</style>
+
+
+<img class="banner" src="<?= base_url() ?>assets/images/logo/<?= $banner ?>">
+
 <div class="white" style="width: 1200px;margin:auto;max-width: 95%;">
+    <!--
     <div class="row">
         <div class="col s12">
             <h6 class="blue-grey-text">Kategori</h6>
@@ -15,14 +20,15 @@
                 </div>
             </div>    
         </div>
-    </div>    
+    </div>
+    -->
 
     <div id="products" style="padding: 50px 0px;">
         <div class="row" id="wrap-products">
-            
+
         </div>
         <div class="text-center" id="more-products">
-            
+
         </div>
     </div>
-</div>    
+</div>

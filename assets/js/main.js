@@ -63,18 +63,18 @@ function getProducts(limit, category='') {
                     <div class="col s12 m6 l3" style="box-sizing:border-box;">  
                         <div class="card rm-box-shadow my-border">
                             <div class="card-image">
-                                <img src="${base_url}assets/images/upload/${product.foto_produk[0].nama_foto}" width="100%" height="250px">
+                                <img src="${base_url}assets/images/upload/${product.foto_produk.length > 0 ? product.foto_produk[0].nama_foto : ''}" width="100%" height="250px">
                                 <!-- <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a> -->
                             </div>
                             <div class="card-content text-center">
-                                <h6 class="font-weight-bold blue-grey-text">${product.nama_produk.substring(0, 34)}...  </h6>
-                                <h6 class="font-weight-thin teal-text">Rp.${product.harga}</h6>
+                                <h6 class="font-weight-bold blue-grey-text">${product.nama_produk.substring(0, 34)}${product.nama_produk.length > 34 ? '...' : ''}  </h6>
+                                <h6 class="font-weight-thin teal-text">$${product.harga}</h6>
                             </div>
                             <div class="d-flex justify-center" style="padding: 10px 0px;">
                                 <a href="${base_url}product/${product.id_produk}">
                                     <button class="waves-effect d-flex align-center justify-center waves-dark rm-box-shadow capitalize btn-small btn-block teal-text btn-outline">
                                         <i class="material-icons">remove_red_eye</i>&nbsp;
-                                        Lihat
+                                        Ver
                                     </button>            
                                 </a>            
                             </div>                        
@@ -90,8 +90,8 @@ getProducts(limit, '');
 
 
 
-function whatsapp(nama_produk) {
-    let jumlah = $("#kuantitas").val();
+function whatsapp(message) {
+    /*let jumlah = $("#kuantitas").val();
     if(!jumlah.length) {
         alert('Harap isi kuantitas pembelian!');
     }
@@ -99,6 +99,7 @@ function whatsapp(nama_produk) {
         alert('Kuantitas tidak boleh kurang dari 1')
     }    
     else {
-        window.open(`https://wa.me/6281314418373?text=Hallo%2C%20saya%20tertarik%20dengan%20produk%20%22${nama_produk}%22%0ASebanyak%20%3A%20${jumlah}%0A%20produk%20apakah%20tersedia%3F`, '_blank')        
-    }    
+        
+    }*/
+    window.open(`https://wa.me/526691241222?text=${message}`, '_blank') 
 }
